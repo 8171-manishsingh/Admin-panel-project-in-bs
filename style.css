@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.dashbord
+{
+height:100vh;
+width: 22%;
+background:linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7)),url(user_img.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: fixed;
+top: 0px;
+left: 0px;
+overflow-y: scroll;
+}
+.dashbord .prof
+{
+   height: 120px;
+   width: 100%;
+   background-color: #214162;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+.dashbord .nav-link
+{
+    padding: 15px 40px;
+    color: rgb(175, 15, 15);
+}
+.dashbord .collapse
+{
+background-color:#214162;
+}
+.sidebar
+{
+    height:100vh;
+    width: 20%;
+    background-image:url("image/pattern_h.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+
+}
+.sidebar .prof
+{
+    height: 120px;
+    width: 100%;
+    background-color: #214162;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+.sidebar .nav-link
+{
+    padding: 15px 40px;
+     color: black;
+}
+.sidebar .collapse
+{
+    background-color: #214162;
+}
+.main-content
+{
+    height: 100%;
+    margin-left: 20%;
+}
+.chart
+{
+    height: auto;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav_c
+{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+.testimonial.date-table
+{
+    height: 450px;
+    width: 550px;
+    border-radius: 5px;
+    background-color:#214162;
+}
+.bar,.updates
+{
+    height: 450px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: rgb(220, 210, 210);
+
+}
+.bar1,.updates
+{
+    height: 450px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: #214162;
+
+}
+.date-head
+{
+    height: 100px;
+    width: 100%;
+    background-color: #214162;
+    border-top-left-radius:5px;
+    background-image:url("image/pattern_h.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.read-more
+{
+    font-weight: medium;
+    display: flex;
+    justify-content: center;
+}
+.read-more a{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #1ed085;
+    transition: 0.7s;
+}
+.read-more a:hover
+{
+background-color: darkorange;
+}
+.footer
+{
+    background-color: white;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+ 
+    margin: auto;
+}
+.name::after
+{
+    content:('online');
+}

@@ -1,0 +1,74 @@
+@media(min-width:480px)
+{
+    .dashbord
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+        width: 50%;
+    }
+    .siderbar
+    {
+        width: 50%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+}
+@media (min-width:567px)
+{
+    .dashbord
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+        width: 35%;
+    }
+    .siderbar
+    {
+        width: 35%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+}
+@media (min-width:768px)
+{
+    .dashbord
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+        width: 26%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+}
+@media (min-width:992px)
+{
+    .dashbord
+    {
+        width: 20%;
+        visibility: visible;
+    }
+    .main-content
+    {
+        margin-left: 20%;
+    }
+    .main-content .toggle
+    {
+        display: none;
+    }
+    .logo
+    {
+        position: absolute;
+        left: 0%;
+    }
+}
